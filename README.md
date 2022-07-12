@@ -15,7 +15,11 @@ rcon.password=
 ```
 Do **NOT** change the first line. Change the second line to `enable-rcon=true` and the third to `rcon.password=yourPassword`. Remember your password as it will be used later. If neccessary [port forward](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/) port **25575**.
 3. Save the file and execute `/reload` in your server console to reload the configuration file.
-4. Run the python file.
+4. Open your terminal and execute `pip install mcrcon`.
+5. Run the python file.
 
 ## Wanna contribute?
 Create a pull request or sumbit an issue. The team will review your suggestion and make the neccessary changes.
+
+## License
+This repository and all files inside of it are licensed under the MIT license. Feel free to use this as a base for any program you choose. The "mcrcon" package is not mine and full credit for the package goes to Adrian Turjak. The package can be found on PyPi [here](https://pypi.org/project/mcrcon/).

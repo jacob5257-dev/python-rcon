@@ -13,7 +13,7 @@ while True:
         with MCRcon(ip, password) as mcr:
             resp = mcr.command(command)
             print(resp)
-    except NameError:
+    except ImportError:
         print("There was an error running your command. Try installing pip and all neccesary packages and try again. For help please refer to https://github.com/jacob5257-dev/python-rcon")
         temp = input("Press enter to continue...")
         break
